@@ -41,20 +41,26 @@
     margin-top: 2rem;
     width: 300px;
   }
-  h2{
+  .text1 > h2, .text2 > h2{
     margin-bottom: 1rem;
 
   }
-  p{
+  .text1 > p, .text2 > p{
     font-size: 13px;
   }
-  
+  .contents > h2 {
+    margin-bottom: 1rem;
+  }
+  .contents > p{
+    font-size: 13px;
+    margin-bottom: 1rem;
+  }
   .d-flex {
     display: flex;
   }
   
   .bg_secondary {
-    background-color: lightgray;
+    background-color: #F6F6F6;
   }
   
   .py_2 {
@@ -79,8 +85,8 @@
   
 
   .debug>footer {
-    height: 550px;
-    background-color: red;
+    height: 350px;
+    background-color: #23272A;
   }
   
   .debug nav {
@@ -120,8 +126,7 @@
     margin-bottom: 1.5rem;
   }
   .debug [class^="col"] {
-    height: 300px;
-   ;
+   
   }
   
   .debug .contents {
@@ -207,12 +212,51 @@
     font-size: 15px;
     cursor: pointer;
   }
+  .contents > h3{
+    margin-top: -2rem;
+  }
   
   /* #endregion Main */
   /* #region Footer */
-  
+
+
+  .logo_language{
+    margin-top: 0.5rem;
+    width: 20px;
+    height: 15px;
+
+  }
+  .language > span{
+    font-size: 12px;
+    color: white;
+  }
+  i{
+    margin-top: 0.5rem;
+    padding-right: 10px;
+    color: white;
+  }
   footer .footer_bottom {
     padding: 1rem 0;
   }
-  
+  .col-3 > h3{
+    color: #7289DA;
+  }
+  .col-3 > p{
+    color: white;
+    font-size: 12px;
+  }
+  p > span {
+    color: #7289DA;
+  }
+.btn-register{
+    padding: 5px;
+    background-color: #7289DA;
+    border: 1px solid #7289DA;
+    color: white;
+    border-radius: 40px ;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+
   /* #endregion Footer */
