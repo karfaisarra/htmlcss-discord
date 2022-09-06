@@ -18,7 +18,8 @@
   .container-sm {
     width: 60%;
     max-width: 1000px;
-    margin: 1rem auto;
+    margin: auto;
+    text-align: center;
   }
   
   .row {
@@ -184,7 +185,8 @@
   }
   .btn-mac2{
     margin-top: 1rem;
-    padding: 20px;
+    padding: 8px ;
+    color: white;
     background-color: #7289DA;
     border: 1px solid #7289DA;
     border-radius: 40px ;
