@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
   
   /* #endregion Common */
   /* #region Utility */
@@ -70,11 +73,6 @@
   .space-between {
     justify-content: space-between;
   }
-  .debug{
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  
   /* #endregion Utility */
   /* #region Debug */
 
@@ -89,47 +87,44 @@
     background-color: #23272A;
   }
   
-  .debug nav {
+  nav {
     height: 80px;
   }
   
-  .debug header .logo{
+  header .logo{
     margin-top: 1rem;
   }
-  .debug header .menu  {
+header .menu  {
     font-size: 12px;
     text-align: center;
     text-decoration: none;
     margin-top: 1.2rem;
-  }
-  .debug header .menu a{
+ }
+header .menu a{
     text-decoration: none;
     color: white;
     padding: 0 5px;
   }
-  .debug header .login {
+  header .login {
     margin-top: 1rem;
   }
-  .debug header .login .btn {
+  header .login .btn {
     padding: 5px;
     border-radius: 40px;
     border: 1px;
     cursor: pointer;
   }
   
-  .debug .container-sm {
+  .container-sm {
     height: 400px;
     text-align: center;
     color: white;
   }
-  .debug .container-sm h1 {
+  .container-sm h1 {
     margin-bottom: 1.5rem;
   }
-  .debug [class^="col"] {
-   
-  }
   
-  .debug .contents {
+  .contents {
     text-align: center;
     height: 500px;
     
