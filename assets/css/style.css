@@ -11,7 +11,7 @@
   /* #region Utility */
   .container {
     width: 70%;
-    max-width: 1176px;
+    max-width: 1200px;
     margin: auto
   }
   
@@ -40,6 +40,103 @@
     width: calc(100% / 12 * 9);
   }
  
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .bg_secondary {
+    background-color: #F6F6F6;
+  }
+  
+  .py_2 {
+    padding: 2rem 0;
+  }
+  
+  .space-between {
+    justify-content: space-between;
+  }
+  /* #endregion Utility */
+  /* #region Debug */
+  
+  nav {
+    height: 80px;
+  }
+  
+  header .logo{
+    margin-top: 1rem;
+  }
+  header .menu  {
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1.2rem;
+  }
+  header .menu a{
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+  }
+  header .login {
+    margin-top: 1rem;
+  }
+  header .login .btn {
+    padding: 5px;
+    border-radius: 40px;
+    border: 1px;
+    cursor: pointer;
+  }
+
+  .container-sm h1 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contents {
+    text-align: center;
+    height: 500px;
+    
+  }
+  
+  /* #endregion Debug */
+  
+  /* #region Header */
+  #site_header{
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px
+  }
+  .btn-flex{
+    margin-top: 1rem;
+    justify-content: space-around ;
+  }
+  #btn_mac{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 40px ;
+    cursor: pointer;
+  }
+  #btn_open {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+
+  header .logo,
+  header .login {
+    flex-grow: 1;
+  }
+  
+  header .menu {
+    flex-grow: 2;
+  }
+  
+  /* #endregion Header */
+  /* #region Main */
   .text1, .text2 {
     margin-top: 2rem;
     width: 300px;
@@ -58,119 +155,6 @@
     font-size: 13px;
     margin-bottom: 1rem;
   }
-  .d-flex {
-    display: flex;
-  }
-  
-  .bg_secondary {
-    background-color: #F6F6F6;
-  }
-  
-  .py_2 {
-    padding: 2rem 0;
-  }
-  
-  .space-between {
-    justify-content: space-between;
-  }
-  /* #endregion Utility */
-  /* #region Debug */
-
-  .debug>header{
-    height: 400px;
-
-  }
-  
-
-  .debug>footer {
-    height: 350px;
-    background-color: #23272A;
-  }
-  
-  nav {
-    height: 80px;
-  }
-  
-  header .logo{
-    margin-top: 1rem;
-  }
-header .menu  {
-    font-size: 12px;
-    text-align: center;
-    text-decoration: none;
-    margin-top: 1.2rem;
- }
-header .menu a{
-    text-decoration: none;
-    color: white;
-    padding: 0 5px;
-  }
-  header .login {
-    margin-top: 1rem;
-  }
-  header .login .btn {
-    padding: 5px;
-    border-radius: 40px;
-    border: 1px;
-    cursor: pointer;
-  }
-  
-  .container-sm {
-    height: 400px;
-    text-align: center;
-    color: white;
-  }
-  .container-sm h1 {
-    margin-bottom: 1.5rem;
-  }
-  
-  .contents {
-    text-align: center;
-    height: 500px;
-    
-  }
-  
-  /* #endregion Debug */
-  
-  /* #region Header */
-  #site_header{
-    background-image: url(../img/jumbo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .btn-flex{
-    margin-top: 1rem;
-    justify-content: space-around ;
-  }
-  .btn-mac{
-    padding: 20px;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 40px ;
-    font-size: 20px;
-    cursor: pointer;
-  }
-.btn-open{
-    padding: 20px;
-    background-color: black;
-    color: white;
-    border-radius: 40px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-
-  header .logo,
-  header .login {
-    flex-grow: 1;
-  }
-  
-  header .menu {
-    flex-grow: 2;
-  }
-  
-  /* #endregion Header */
-  /* #region Main */
   
   main section {
     padding: 2rem 0;
@@ -213,8 +197,10 @@ header .menu a{
   
   /* #endregion Main */
   /* #region Footer */
-
-
+  #site_footer{
+    height: 350px;
+    background-color: #23272A;
+  }
   .logo_language{
     margin-top: 0.5rem;
     width: 20px;
@@ -243,7 +229,7 @@ header .menu a{
   p > span {
     color: #7289DA;
   }
-.btn-register{
+  .btn-register{
     padding: 5px;
     background-color: #7289DA;
     border: 1px solid #7289DA;
